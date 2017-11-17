@@ -2,7 +2,6 @@
 自定义可移动伸缩的矩形框
 
 - Gif
-
-  ![ZoomBox](C:\Users\今夜犬吠\Desktop\ZoomBox.gif)
+  ![image](https://github.com/YinCanSheng/JaneB_CustomZoomBox/MyCustomZoomBox/gif/ZoomBox.gif)
 
 - 功能说明
