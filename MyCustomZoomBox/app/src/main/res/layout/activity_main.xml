@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardView_MainActivity_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/CheckBox_MainActivity_showCoordinate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示坐标"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/CheckBox_MainActivity_showMappingLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示测绘线"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="12sp"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/CheckBox_MainActivity_startAnima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开启动画"
+                android:textColor="@color/cardview_dark_background"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <zoombox.jinye.com.mycustomzoombox.customview.MCustomZoomView
+        android:id="@+id/MCustomZoomView_MainActivity_ZoomView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/CardView_MainActivity_head"
+        />
+</RelativeLayout>
