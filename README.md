@@ -1,5 +1,5 @@
 # JaneB_CustomZoomBox
-自定义可移动伸缩的矩形框
+自定义裁剪矩形框
 
 - Gif
 
