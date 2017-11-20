@@ -1,4 +1,8 @@
-#### JaneB_CustomZoomBox
+##JaneB_CustomZoomBox
+
+---
+
+#### 跋
 - 自定义裁剪矩形框
 
 - 效果图
@@ -6,7 +10,7 @@
   ![image](https://github.com/YinCanSheng/JaneB_CustomZoomBox/blob/master/MyCustomZoomBox/gif/ZoomBox.gif)
   
 
-#### 功能说明
+#### 纲要
  - 点击框内移动矩形
  - 点击边框线单向缩放矩形
  - 点击边角双向缩放矩形
