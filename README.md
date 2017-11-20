@@ -1,8 +1,9 @@
 ## JaneB_CustomZoomBox
 
 
-#### 跋
+#### 序
 - 自定义图片裁剪矩形框
+- 初入自定义的伙伴可观摩借鉴
 - 效果图
 
   ![image](https://github.com/YinCanSheng/JaneB_CustomZoomBox/blob/master/MyCustomZoomBox/gif/zoomView.gif)
@@ -25,5 +26,6 @@
         />  
         
  ```
+ ### 跋
  - 矩形初始状态自行修改源码即可（大小、颜色、位置）
  - 此Demo单纯实现自定义框的编写，至于其他交互，通读一遍源码，相信你可已举一反三活学活用。
