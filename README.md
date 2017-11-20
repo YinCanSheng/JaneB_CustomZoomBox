@@ -16,14 +16,13 @@
   - 在布局中引入（把包路径修改成自己的）
 
   
-    
-    <zoombox.jinye.com.mycustomzoombox.customview.MCustomZoomView
+    ```
+    <zoombox.jinye.com.mycustomzoombox.customview.MCustomZoomView
         android:id="@+id/MCustomZoomView_MainActivity_ZoomView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/CardView_MainActivity_head"
         />   
-        
-    
-    
+       
+     ```
   - 矩形初始状态自行修改源码即可
