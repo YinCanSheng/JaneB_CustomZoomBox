@@ -3,7 +3,6 @@
 
 #### 跋
 - 自定义图片裁剪矩形框
-
 - 效果图
 
   ![image](https://github.com/YinCanSheng/JaneB_CustomZoomBox/blob/master/MyCustomZoomBox/gif/zoomView.gif)
@@ -15,7 +14,8 @@
  - 点击边角双向缩放矩形
  
 #### 使用
- - 在布局中引入（把包路径修改成自己的）   
+ - 把源码copy到自己的工程
+ - 在XML布局中引入（把包路径修改成自己的）   
  ```
  <zoombox.jinye.com.mycustomzoombox.customview.MCustomZoomView
         android:id="@+id/MCustomZoomView_MainActivity_ZoomView"
@@ -25,4 +25,5 @@
         />  
         
  ```
- - 矩形初始状态自行修改源码即可
+ - 矩形初始状态自行修改源码即可（大小、颜色、位置）
+ - 此Demo单纯实现自定义框的编写，至于其他交互，通读一遍源码，相信你可已举一反三活学活用。
