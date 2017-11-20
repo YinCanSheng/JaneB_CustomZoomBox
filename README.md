@@ -6,7 +6,7 @@
 
 - 效果图
 
-  ![image](https://github.com/YinCanSheng/JaneB_CustomZoomBox/blob/master/MyCustomZoomBox/gif/ZoomBox.gif)
+  ![image](https://github.com/YinCanSheng/JaneB_CustomZoomBox/blob/master/MyCustomZoomBox/gif/zoomView.gif)
   
 
 #### 纲要
